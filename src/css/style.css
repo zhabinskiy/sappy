@@ -211,8 +211,8 @@ body {
 
 @media (min-width: 768px) {
   .illustration {
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    margin-top: 40px;
     height: 180px;
   }
 
@@ -220,5 +220,13 @@ body {
     max-width: 1355px;
     width: 100%;
     transform: translateX(0);
+  }
+}
+
+@media (min-width: 1680px) {
+  .illustration {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
   }
 }
